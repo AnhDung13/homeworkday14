@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mumbai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div id="loading" class="loading"></div>
+    <!-- homepage -->
+    <input type="checkbox" id="theme_color" hidden />
+    <div id="homepage">
+      <!-- header -->
+      <header class="header_wrap">
+        <!-- toggle -->
+        <div class="toggle_btn">
+          <label for="toggle_menu"> <i class="fa-solid fa-bars"></i></label>
+        </div>
+        <!-- /toggle -->
+        <input type="checkbox" name="toggle_menu" id="toggle_menu" hidden />
+        <!-- logo -->
+        <a href="index.html" class="logo"><span>s</span>travel</a>
+        <!-- /logo -->
+        <!-- navbar -->
+        <nav class="navbar">
+          <a href="#home">Trang chủ</a>
+          <a href="#about">About</a>
+          <a href="#destination">Điểm đến</a>
+          <a href="#service">Dịch vụ</a>
+          <a href="">Ảnh</a>
+          <a href="">Blogs</a>
+        </nav>
+        <!-- /navbar -->
+        <!-- change theme -->
+        <label class="theme_btn" for="theme_color">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </label>
+        <!-- /change theme -->
+        <!-- booknow btn -->
+        <a href="#book_form" class="btn">đặt ngay</a>
+        <!-- /booknow btn -->
+      </header>
+      <!-- /header -->
+      <!-- home -->
+      <section id="home" class="home">
+        <div class="content-wrap">
+          <span class="pre_title">mumbai</span>
+          <h1 class="title">thành phố có tất cả</h1>
+          <p class="content">
+            mumbai không chỉ là trung tâm tài chính – kinh tế, kinh đô điện ảnh
+            – thời trang của ấn độ, mà đây còn là thành phố cảng vừa hiện đại
+            nhưng vẫn mang nhiều nét cổ kính với những công trình kiến trúc,
+            quán bar, nhà hàng, viện bảo tàng và các cửa hàng thời trang hấp
+            dẫn…
+          </p>
+          <a href="#!" class="btn">tìm hiểu thêm</a>
+        </div>
+      </section>
+      <!-- /home -->
+      <!-- book form -->
+      <section class="book_form" id="book_form">
+        <form>
+          <div class="pack">
+            <span>ưu đãi 30.000.000 cho 5người/3ngày</span>
+          </div>
+          <div class="book">
+            <a href="#!" class="btn">đặt ngay</a>
+          </div>
+        </form>
+      </section>
+      <!-- /book form -->
+      <!-- about -->
+      <section class="about" id="about">
+        <div class="video">
+          <div class="video-wrap">
+            <input type="radio" name="vid" id="vid-1" hidden />
+            <video
+              src="https://stravelhtml.vercel.app/videos/vid-1.mp4"
+              muted
+              autoplay
+              loop
+            ></video>
+            <input type="radio" name="vid" id="vid-2" hidden />
+            <video
+              src="https://stravelhtml.vercel.app/videos/vid-2.mp4"
+              muted
+              autoplay
+              loop
+            ></video>
+            <input type="radio" name="vid" id="vid-3" hidden />
+            <video
+              src="https://stravelhtml.vercel.app/videos/vid-3.mp4"
+              muted
+              autoplay
+              loop
+            ></video>
+          </div>
+          <div class="video_btn">
+            <label for="vid-1"></label>
+            <label for="vid-2"></label>
+            <label for="vid-3"></label>
+          </div>
+        </div>
+        <div class="content-wrap">
+          <span class="pre_title">tại sao nên chọn stravel</span>
+          <h2 class="title">trải nghiệm bậc nhất</h2>
+          <p class="content">
+            chúng tôi hợp tác với những địa điểm nghỉ dưỡng có trải nghiệm bậc
+            nhất để đem lại một kỳ nghỉ tuyệt vời cho bạn cùng người thân
+          </p>
+          <a href="#!" class="btn">tìm hiểu thêm về stravel</a>
+        </div>
+      </section>
+      <!-- /about -->
+      <!-- destination -->
+      <section class="destination" id="destination">
+        <div class="heading">
+          <span class="pre_title">những điểm đến ở mumbai</span>
+          <h2 class="title">những điểm du lịch bậc nhất</h2>
+        </div>
+        <div class="items-wrap">
+          <div class="row">
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>ấn độ môn</h3>
+                  <p>
+                    được xây dựng vào năm 1931, còn có tên gọi khác là “bia kỷ
+                    niệm chiến sĩ ấn độ”
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>tòa nhà hình trứng</h3>
+                  <p>
+                    Nghệ Thuật Kiến Trúc Thị Giác Kết Hợp Với Cách Sản Xuất, Sử
+                    Dụng Và Tái Tạo Năng Lượng Thông Minh
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>vườn quốc gia sanjay gandhi</h3>
+                  <p>
+                    Bao Gồm Loài Bướm Đêm Atlas – Bướm Đêm Lớn Nhất Thế Giới,
+                    Cây Hoa Karvi 7 Năm Nở Hoa Một Lần…
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>Trung Tâm Triễn Lãm Jehanggir</h3>
+                  <p>
+                    Khu Vực Triển Lãm Hàng Đầu Ở Mumbai Dành Cho Nền Mỹ Thuật Ấn
+                    Độ Đương Đại
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>Hang Động Elephanta</h3>
+                  <p>
+                    Lưu Giữ Nhiều Kiến Trúc Chạm Khắc Tinh Xảo Và Chúng Đã Xuất
+                    Hiện Ở Đây Từ Thế Kỷ Thứ 5 Đến Thứ 8
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-6.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>Lonavala Và Khandala</h3>
+                  <p>
+                    Khu Nghỉ Dưỡng Rất Nổi Tiếng, Nằm Giữa Đường Cao Tốc Mumbai
+                    – Pune.
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-7.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>Thành Phố Pune</h3>
+                  <p>
+                    Giáo Dục, Nghệ Thuật Và Âm Nhạc Là Trọng Tâm Tại Thành Phố
+                    Có Nền Văn Hóa Phong Phú Lâu Đời Này
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xxl-3">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/des-8.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>Thành Phố Nashik</h3>
+                  <p>
+                    Là Trung Tâm Hành Hương Lớn Của Người Hindu. Nashik Có Sự
+                    Pha Trộn Của Nét Cổ Xưa Và Hiện Đại
+                  </p>
+                  <div style="cursor: pointer; width: fit-content">
+                    <a href="#!"> đọc thêm </a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+          </div>
+        </div>
+      </section>
+      <!-- /destination -->
+      <!-- service -->
+      <section class="service" id="service">
+        <div class="heading">
+          <span class="pre_title">dịch vụ</span>
+          <h2 class="title">nâng cao trải nghiệm</h2>
+        </div>
+        <div class="items-wrap">
+          <div class="row">
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-6 col-xxl-4">
+              <div class="item">
+                <i class="fa-solid fa-globe"></i>
+                <h3>rộng khắp thế giới</h3>
+                <p>some text...</p>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-6 col-xxl-4">
+              <div class="item">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>những cuộc phiêu lưu</h3>
+                <p>some text...</p>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-6 col-xxl-4">
+              <div class="item">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>dịch vụ ăn uống</h3>
+                <p>some text...</p>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-6 col-xxl-4">
+              <div class="item">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>nghỉ dưỡng cao cấp</h3>
+                <p>some text...</p>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-6 col-xxl-4">
+              <div class="item">
+                <i class="fa-solid fa-wallet"></i>
+                <h3>giá tốt nhất</h3>
+                <p>some text...</p>
+              </div>
+            </div>
+            <!-- /item -->
+            <!-- item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-6 col-xxl-4">
+              <div class="item">
+                <i class="fa-solid fa-headset"></i>
+                <h3>hỗ trợ 24/7</h3>
+                <p>some text...</p>
+              </div>
+            </div>
+            <!-- /item -->
+          </div>
+        </div>
+      </section>
+      <!-- /service -->
+    </div>
+    <!-- /homepage -->
+  </body>
+</html>
