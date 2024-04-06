@@ -624,6 +624,142 @@ body{
 }
 
 //end galery
+// review
+
+.review{
+    padding: 30px 9%;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width:1053px){
+        padding: 26.5px 4%;
+        flex-direction: column;
+        .content{
+            width: 100% !important;
+        }
+        .items-wrap{
+            width: 100% !important;
+        }
+        .row{
+            flex-wrap: nowrap;
+        }
+    }
+    @media screen and (max-width:991px){
+        flex-direction: row;
+        .content{
+            width: 48.5% !important;
+        }
+        .items-wrap{
+            width: 50% !important;
+        }
+        .row{
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width:925px){
+        flex-direction: column  ;
+        .content{
+            width: 100% !important;
+        }
+        .items-wrap{
+            width: 100% !important;
+        }
+    }
+    .content{
+        width: 48.5%;
+        h2{
+            font-size: 30px;
+            color: #ffa500;
+        }
+        p{
+            font-size: 14px;
+            color: #555;
+            padding: 10px 0;
+            line-height: 2;
+        }
+        @media screen and (max-width:991px){
+            h2{
+                font-size: 26.5px;
+            }
+            p{
+                font-size: 12.3px;
+            }
+        }
+        @media screen and (max-width:450px){
+            h2{
+                font-size: 24px;
+            }
+        }
+    }
+    .items-wrap{
+        width: 50%;
+        .item{
+            padding: 20px;
+            border: 2px solid #ffa500;
+            border-radius: 10px;
+            height: 100%;
+            @media screen and (max-width:991px){
+                padding: 16px;
+                p{
+                    font-size: 12.3px !important;
+                }
+            }
+            @media screen and (max-width:991px){
+                padding: 11px;
+                p{
+                    font-size: 11.2px !important;
+                }
+            }
+            p{
+                font-size: 14px;
+                color: #555;
+                line-height: 2;
+                padding: 0 0 10px;
+                
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    @media screen and (max-width:991px){
+                        width: 44px;
+                        height: 44px;
+                    }
+                    @media screen and (max-width:991px){
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                .info{
+                    h3{
+                        font-size: 17px;
+                    }
+                    @media screen and (max-width:991px){
+                        h3{
+                            font-size: 15px;
+                        }
+                    }
+                    @media screen and (max-width:991px){
+                        h3{
+                            font-size: 13.6px;
+                        }
+                    }
+                    span{
+                        font-size: 15px;
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end review
 .pre_title{
     font-size: 20px;
     color: #ffa500;
