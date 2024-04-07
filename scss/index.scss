@@ -760,6 +760,109 @@ body{
 }
 
 //end review
+// contact
+
+.contact{
+    padding: 30px 9%;
+    text-align: center;
+    @media screen and (max-width:1053px){
+        padding: 26.5px 4%;
+        .row{
+            flex-wrap: wrap !important;
+        }
+    }
+    @media screen and (max-width:991px){
+        .row{
+            flex-wrap: nowrap !important;
+        }
+    }
+    @media screen and (max-width:800px){
+        .row{
+            flex-wrap: wrap !important;
+        }
+    }
+    .heading{
+        margin:0 0 20px;
+        span{
+            font-size: 30px;
+            text-transform: uppercase;
+            color: #ffa500;
+            letter-spacing: 5px;
+            font-weight: 500;
+            @media screen and (max-width:991px){
+               font-size: 24px;
+            }
+        }
+    }
+    .row{
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    iframe{
+        width: 100%;
+    }
+    form{
+        padding: 20px;
+        background: #fff;
+        .inp-box{
+            display: flex;
+            justify-content: space-between;
+            @media screen and (max-width:450px){
+                display: block;
+                input{
+                    width: 100% !important;
+                }
+            }
+        }
+        input,textarea{
+            display: block;
+            width: 49%;
+            background: #f7f7f7;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        textarea{
+            width: 100%;
+            height: 150px;
+        }
+        .btn{
+            padding: 8px 20px;
+            margin: 10px 0 0;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+//end contact
+// blogs
+
+.blogs{
+    padding: 30px 9%;
+    text-align: center;
+    text-transform: capitalize;
+    @media screen and (max-width:1053px){
+        padding: 26.5px 4%;
+    }
+    .heading{
+        margin: 0 0 10px;
+    }
+    .item{
+        border-radius: 10px;
+        background: #fff;
+        overflow: hidden;
+        height: 100%;
+        .image{
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 250px;
+            }
+        }
+    }
+}
+
+//end blogs
 .pre_title{
     font-size: 20px;
     color: #ffa500;

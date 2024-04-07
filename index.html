@@ -43,7 +43,7 @@
           <a href="#destination">Điểm đến</a>
           <a href="#service">Dịch vụ</a>
           <a href="#gallery">Ảnh</a>
-          <a href="">Blogs</a>
+          <a href="#blogs">Blogs</a>
         </nav>
         <!-- /navbar -->
         <!-- change theme -->
@@ -519,7 +519,7 @@
         <div class="items-wrap">
           <div class="row">
             <!-- item -->
-            <div class="col-6 col-xl-6 col-xxl-6">
+            <div class="col-6 col-xl-6 col-xxl-6 col-3xl-4">
               <div class="item">
                 <p>
                   Chuyến Đi Rất Vui, Giá Rất Rẻ. Gọi Tư Vấn Rất Nhanh. Tôi Sẽ
@@ -539,7 +539,7 @@
             </div>
             <!-- /item -->
             <!-- item -->
-            <div class="col-6 col-xl-6 col-xxl-6">
+            <div class="col-6 col-xl-6 col-xxl-6 col-3xl-4">
               <div class="item">
                 <p>
                   Chuyến Đi Rất Vui, Đáng Để Thử. Đồ Ăn Ở Đây Rất Ngon. Chắc
@@ -559,7 +559,7 @@
             </div>
             <!-- /item -->
             <!-- item -->
-            <div class="col-6 col-xl-6 col-xxl-6">
+            <div class="col-6 col-xl-6 col-xxl-6 col-3xl-4">
               <div class="item">
                 <p>Khách Sạn Ở Rất Tuyệt. Thích Hợp Với 1 Chỗ Nghỉ Dưỡng.</p>
                 <div class="user">
@@ -576,7 +576,10 @@
             </div>
             <!-- /item -->
             <!-- item -->
-            <div class="col-6 col-xl-6 col-xxl-6">
+            <div
+              class="col-6 col-xl-6 col-xxl-6 col-3xl-4"
+              style="flex-grow: 1; max-width: 1000px"
+            >
               <div class="item">
                 <p>
                   Hướng Dẫn Viên Rất Chu Đáo. Mọi Dịch Vụ Đều Có Và Rất Thoải
@@ -599,6 +602,96 @@
         </div>
       </section>
       <!-- /review -->
+      <!-- contact -->
+      <section class="contact" id="contact">
+        <div class="heading">
+          <span>đánhgiá</span>
+        </div>
+        <div class="row">
+          <div class="col-9" style="flex-grow: 1; max-width: 1000px">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.397941733614!2d105.78118067596877!3d20.976679689564037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acd2e6563415%3A0x6a04e2e16c016ece!2zMTkzIMSQxrDhu51uZyBUcuG6p24gUGjDuiwgUC4gVsSDbiBRdcOhbiwgSMOgIMSQw7RuZywgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1712460418990!5m2!1svi!2s"
+              width="400"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-12">
+            <form>
+              <div class="inp-box">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Tên của bạn"
+                  required
+                />
+                <input type="email" name="email" placeholder="Email liên hệ" />
+              </div>
+              <div class="inp-box">
+                <input
+                  type="number"
+                  name="phone"
+                  placeholder="Số điện thoại"
+                  required
+                />
+                <input type="text" name="topic" placeholder="Chủ đề" />
+              </div>
+              <textarea
+                name="feedback"
+                cols="30"
+                rows="10"
+                placeholder="Viết đánh giá của bạn về chuyến đi..."
+              ></textarea>
+              <button class="btn" type="submit">gửi tới stravel</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <!-- blogs -->
+      <section class="blogs" id="blogs">
+        <div class="heading">
+          <span class="pre_title">blog & post</span>
+          <h2 class="title">tìm hiểu về mumbai</h2>
+        </div>
+        <div class="items-wrap">
+          <div class="row">
+            <!-- item -->
+            <div class="col-4">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="https://stravelhtml.vercel.app/mumbai/images/blog-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <h3>mang những gì khi đi mumbai</h3>
+                  <p>
+                    Giấy Tờ Tuỳ Thân, Giấy Xác Minh Tài Chính, Visa, Vé Máy Bay,
+                    Trang Phục, Đồ Dùng Cá Nhân, Balo, Túi Đựng Đồ...
+                  </p>
+                  <div class="icon">
+                    <a href="#!">
+                      <i class="fa-solid fa-clock"></i>
+                      21st May, 2021
+                    </a>
+                    <a href="#!">
+                      <i class="fa-solid fa-user"></i>
+                      by admin
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /item -->
+          </div>
+        </div>
+      </section>
+      <!-- /blogs -->
     </div>
     <!-- /homepage -->
   </body>
